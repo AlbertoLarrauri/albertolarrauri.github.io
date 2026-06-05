@@ -42,17 +42,17 @@ Silvia Butti, Alberto Larrauri, Standa Živný
 <br>
 <div style="margin-left: 2em">
 <strong> Summary: </strong>
-A celebrated result of Håstad established that, for any constant $\varepsilon>0$,
-it is NP-hard to find an assignment satisfying a $(1/|G|+\varepsilon)$-fraction
-of the constraints of a given $3$-Lin instance over an Abelian group $G$ even if
-one is promised that an assignment satisfying a $(1-\varepsilon)$-fraction of
+A celebrated result of Håstad established that, for any constant  \\(\varepsilon>0 \\),
+it is NP-hard to find an assignment satisfying a  \\((1/|G|+\varepsilon) \\)-fraction
+of the constraints of a given  \\(3 \\)-Lin instance over an Abelian group  \\(G \\) even if
+one is promised that an assignment satisfying a  \\((1-\varepsilon) \\)-fraction of
 the constraints exists. Engebretsen, Holmerin, and Russell showed the same
-result for $3$-Lin instances over any finite (not necessarily Abelian) group.
-In other words, for almost-satisfiable instances of $3$-Lin the random
+result for  \\(3 \\)-Lin instances over any finite (not necessarily Abelian) group.
+In other words, for almost-satisfiable instances of  \\(3 \\)-Lin the random
 assignment achieves an optimal approximation guarantee.
 %
 We prove that the random assignment algorithm is still best possible under a stronger
-promise that the $3$-Lin instance is almost satisfiable over an arbitrarily
+promise that the  \\(3 \\)-Lin instance is almost satisfiable over an arbitrarily
 more restrictive group.
 <br>
 </div>
@@ -119,7 +119,7 @@ Alberto Larrauri, Tobias Müller & Marc Noy,
 <br>
 <div style="margin-left: 2em">
 <strong> Summary: </strong>
-We study the set $L_c$ of limiting probabilities of first order sentences in the binomial random graph $G(n, p)$ in the sparse regime $p \sim c/n$. We show there is a critical value $c_0$ for which $L_c$ is dense in $[0,1]$ if and only if $c \geq c_0$. Moreover, the closure of $L_c$ is always a finite union of closed intervals. The value $c_0$ is precisely the one witnessing $\mathrm{Pr}(G(n, c_0/n) \text{ is acyclic }) = 1/2 + o(1)$. These results are also extended to the binomial $d$-uniform hypergraph. 
+We study the set  \\(L_c \\) of limiting probabilities of first order sentences in the binomial random graph  \\(G(n, p) \\) in the sparse regime  \\(p \sim c/n \\). We show there is a critical value  \\(c_0 \\) for which  \\(L_c \\) is dense in  \\([0,1] \\) if and only if  \\(c \geq c_0 \\). Moreover, the closure of  \\(L_c \\) is always a finite union of closed intervals. The value  \\(c_0 \\) is precisely the one witnessing  \\(\mathrm{Pr}(G(n, c_0/n) \text{ is acyclic }) = 1/2 + o(1) \\). These results are also extended to the binomial  \\(d \\)-uniform hypergraph. 
 <br>
 </div>
 </details>
@@ -218,7 +218,7 @@ Alberto Larrauri, Guillem Perarnau,
 <br>
 <div style="margin-left: 2em">
 <strong> Summary: </strong>
-We study the set $L$ of limiting probabilities of first order sentences in the random graph $G_n$ with given degree sequence in the sparse regime. Similarly to our previous work on the binomial random graph $G(n, c/n)$, we show that the closure of $L$ is always a finite union of intervals. Moreover, whether $L$ is dense in $[0,1]$ depends only $\rho$, the ratio between the first and second moment of the limiting degree distribution, which also determines the appearance of a giant component in this random graph. We prove that $L$ is dense in $[0,1]$ if and only if $\rho\geq \rho_0$, where $\rho_0$ is the critical value witnessing $\mathrm{Pr}(G_n \text{ is acyclic }) = 1/2 + o(1)$.
+We study the set  \\(L \\) of limiting probabilities of first order sentences in the random graph  \\( G_n \\) with given degree sequence in the sparse regime. Similarly to our previous work on the binomial random graph  \\(G(n, c/n) \\), we show that the closure of  \\(L \\) is always a finite union of intervals. Moreover, whether  \\(L \\) is dense in  \\([0,1] \\) depends only  \\(\rho \\), the ratio between the first and second moment of the limiting degree distribution, which also determines the appearance of a giant component in this random graph. We prove that  \\(L \\) is dense in  \\([0,1] \\) if and only if  \\(\rho\geq \rho_0 \\), where  \\(\rho_0 \\) is the critical value witnessing  \\(\mathrm{Pr}(G_n \text{ is acyclic }) = 1/2 + o(1) \\).
 <br>
 </div>
 </details>
@@ -283,7 +283,7 @@ Alberto Larrauri,
 <br>
 <div style="margin-left: 2em">
 <strong> Summary: </strong>
-Preservation theorems are results in classical model theory relating semantic classes of first order sentences to syntactic ones. We focus on Lyndon's theorem and Łoś–Tarski's theorem. The first states that a sentence which is monotone in some predicate is equivalent to a sentence which is positive in that predicate, and the second that a sentence closed under embeddings is equivalent to a purely existential one. Famously, both theorems fail when we restrict them to finite structures. This is the case even for finite graphs. We consider probabilistic versions of those theorems on random structures, where equivalence between sentences is substituted for "asymptotically-almost-sure" equivalence. We show that the probabilistic Lyndom theorem holds in multiple regimes of $G(n,p)$ including $p \sim c n^\alpha$ for $\alpha=-1$, or $\alpha= - (k+1)/k$, and close to the connectivity threshold $p \sim c/n + d\log n/n$. Similarly, we also prove the probabilistic Łoś–Tarski's theorem holds for those regimes of $G(n,p)$ as well as in the $n$-vertex uniform random graph chosen from an arbitrary addable minor-closed family. 
+Preservation theorems are results in classical model theory relating semantic classes of first order sentences to syntactic ones. We focus on Lyndon's theorem and Łoś–Tarski's theorem. The first states that a sentence which is monotone in some predicate is equivalent to a sentence which is positive in that predicate, and the second that a sentence closed under embeddings is equivalent to a purely existential one. Famously, both theorems fail when we restrict them to finite structures. This is the case even for finite graphs. We consider probabilistic versions of those theorems on random structures, where equivalence between sentences is substituted for "asymptotically-almost-sure" equivalence. We show that the probabilistic Lyndom theorem holds in multiple regimes of  \\(G(n,p) \\) including  \\(p \sim c n^\alpha \\) for  \\(\alpha=-1 \\), or  \\(\alpha= - (k+1)/k \\), and close to the connectivity threshold  \\(p \sim c/n + d\log n/n \\). Similarly, we also prove the probabilistic Łoś–Tarski's theorem holds for those regimes of \\(G(n,p) \\) as well as in the  \\(n \\)-vertex uniform random graph chosen from an arbitrary addable minor-closed family. 
 <br>
 </div>
 </details>
