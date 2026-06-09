@@ -42,17 +42,17 @@ Silvia Butti, Alberto Larrauri, Standa Živný
 <br>
 <div style="margin-left: 2em">
 <strong> Summary: </strong>
-A celebrated result of Håstad established that, for any constant  \\\(\varepsilon>0 \\\),
-it is NP-hard to find an assignment satisfying a  \\\((1/|G|+\varepsilon) \\\)-fraction
-of the constraints of a given  \\\(3 \\\)-Lin instance over an Abelian group  \\\(G \\\) even if
-one is promised that an assignment satisfying a  \\\((1-\varepsilon) \\\)-fraction of
+A celebrated result of Håstad established that, for any constant  \(\varepsilon>0 \),
+it is NP-hard to find an assignment satisfying a  \((1/|G|+\varepsilon) \)-fraction
+of the constraints of a given  \(3 \)-Lin instance over an Abelian group  \(G \) even if
+one is promised that an assignment satisfying a  \((1-\varepsilon) \)-fraction of
 the constraints exists. Engebretsen, Holmerin, and Russell showed the same
-result for  \\\(3 \\\)-Lin instances over any finite (not necessarily Abelian) group.
-In other words, for almost-satisfiable instances of  \\\(3 \\\)-Lin the random
+result for  \(3 \)-Lin instances over any finite (not necessarily Abelian) group.
+In other words, for almost-satisfiable instances of  \(3 \)-Lin the random
 assignment achieves an optimal approximation guarantee.
 %
 We prove that the random assignment algorithm is still best possible under a stronger
-promise that the  \\\(3 \\\)-Lin instance is almost satisfiable over an arbitrarily
+promise that the  \(3 \)-Lin instance is almost satisfiable over an arbitrarily
 more restrictive group.
 <br>
 </div>
