@@ -43,12 +43,38 @@ Alberto Larrauri
 <strong> Summary: </strong>
 It is an open question whether the search and decision versions of promise CSPs are equivalent. 
 Most known algorithms for PCSPs solve only their <i> decision </i> variant, and it is unknown whether they can be adapted to solve <i> search </i> as well. 
-The main approaches, called BLP, AIP and BLP+AIP, handle a PCSP by finding a solution to a relaxation of some integer program. We prove that rounding those solutions to a proper search certificate can be as hard as any problem in the class TFNP. In other words, these algorithms are ineffective for search. Building on the algebraic approach to PCSPs, we find sufficient conditions that imply ineffectiveness for search. Our tools are tailored to algorithms that are characterized by minions in a suitable way, and can also be used to prove undecidability results for meta-problems. This way, we show that the families of templates solvable via BLP, AIP, and BLP+AIP are undecidable. 
+The main approaches, called BLP, AIP and BLP+AIP, handle a PCSP by finding a solution to a relaxation of some integer program. We prove that rounding those solutions to a proper search certificate can be as hard as any problem in the class TFNP. In other words, these algorithms are ineffective for search. Building on the algebraic approach to PCSPs, we find sufficient conditions that imply ineffectiveness for search. Our tools are tailored to algorithms that are characterized by minions in a suitable way, and can also be used to prove undecidability results for meta-problems. This way, we show that the families of templates solvable via BLP, AIP, and BLP+AIP are undecidable. <br>
 
 
 
 Using the same techniques we also analyze several algebraic conditions that are known to guarantee the tractability of finite-template CSPs. We prove that several meta-problems related to cyclic polymorphims and WNUs are undecidable for PCSPs. In particular, there is no algorithm deciding whether a finite PCSP template (1) admits cyclic a polymorphism, (2) admits a WNU. 
 
+<br>
+</div>
+</details>
+
+---
+
+<details>
+<summary> 
+<strong style="color:#52adc8"> Equations over Finite Monoids with Infinite Promises
+</strong> <br>
+Alberto Larrauri, Antoine Mottet, Standa Živný
+<i> ACM Transactions on Computational Logic </i> 2026.
+<a href="http://albertolarrauri.github.io/files/infinite_promises.pdf
+">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Summary: </strong>
+Recent work has established a complete complexity
+  classification of the problem of solving a system of equations over a 
+  monoid \( N\) assuming that a solution exists over a monoid
+  \( M \), where both monoids are finite and \( M \) admits a homomorphism to
+  \( N \). Using the algebraic approach to promise constraint satisfaction
+  problems, we extend this complexity classification in two directions: we allow arbitrary relations to be added to the monoids, and we moreover allow the monoid \( M\) to be finitely generated instead of finite.
 <br>
 </div>
 </details>
@@ -77,7 +103,7 @@ one is promised that an assignment satisfying a  \((1-\varepsilon) \)-fraction o
 the constraints exists. Engebretsen, Holmerin, and Russell showed the same
 result for  \(3 \)-Lin instances over any finite (not necessarily Abelian) group.
 In other words, for almost-satisfiable instances of  \(3 \)-Lin the random
-assignment achieves an optimal approximation guarantee.
+assignment achieves an optimal approximation guarantee. <br>
 
 
 
@@ -95,7 +121,7 @@ more restrictive group.
 <strong style="color:#52adc8"> Solving Promise Equations Over Monoids and Groups
 </strong> <br>
 Alberto Larrauri, Standa Živný
-<i> The International Colloquium on Automata, Languages and Programming </i> (<strong> ICALP track B </strong>) 2024, and <i> ACM Transactions on Computational Logic </i> 26(1).
+<i> The International Colloquium on Automata, Languages and Programming </i> (<strong> ICALP track B </strong>) 2024, and <i> ACM Transactions on Computational Logic </i> 2024.
 <a href="http://albertolarrauri.github.io/files/PromiseEquations.pdf
 ">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
@@ -248,8 +274,8 @@ Alberto Larrauri, Guillem Perarnau,
 <br>
 <div style="margin-left: 2em">
 <strong> Summary: </strong>
-We study the set  \(L \) of limiting probabilities of first order sentences in the random graph  \(G_n \) with given degree sequence in the sparse regime. Similarly to previous work on the binomial random graph  \(G(n, c/n) \), we show that the closure of  \(L \) is always a finite union of intervals. Moreover, whether  \(L \) is dense in  \([0,1] \) depends only  \(\rho \), the ratio between the first and second moment of the limiting degree distribution, which also determines the appearance of a giant component in this random graph. We prove that  \(L \) is dense in  \([0,1] \) if and only if 
-\(\rho\geq \rho_0 \), where  \(\rho_0 \) is the critical value witnessing  \(\mathrm{Pr}(G_n \text{ is acyclic }) = 1/2 + o(1) \).
+We study the set  \(L \) of limiting probabilities of first order sentences in the random graph  \(G_n \) with given degree sequence in the sparse regime. Similarly to previous work on the binomial random graph  \(G(n, c/n) \), we show that the closure of  \(L \) is always a finite union of intervals. Moreover, whether  \( L \) is dense in  \([0,1] \) depends only  \(\rho \), the ratio between the first and second moment of the limiting degree distribution, which also determines the appearance of a giant component in this random graph. We prove that  \( L \) is dense in  \( [0,1] \) if and only if 
+\( \rho\geq \rho_0 \), where  \( \rho_0 \) is the critical value witnessing  \(\mathrm{Pr}(G_n \text{ is acyclic }) = 1/2 + o(1) \).
 <br>
 </div>
 </details>
